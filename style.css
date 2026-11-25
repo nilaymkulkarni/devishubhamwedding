@@ -198,3 +198,23 @@ body {
   .modal-content h2 { font-size: 23px; }
   .hotspot { border-width: 1.5px; border-radius: 3px; }
 }
+
+
+/* Hide hotspot outlines and backgrounds */
+.hotspot {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* No visible highlight when hovering or clicking */
+.hotspot:hover,
+.hotspot:focus,
+.hotspot:active {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
